@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T09:56:02.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="mpvaloIlVz1uZEAOmMg0" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T10:13:38.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="IHEt5FsPO0Vl5bNSQzQC" version="21.3.3" type="github">
   <diagram name="第 1 页" id="4RQRIDMLdJYoDIxO6LaD">
-    <mxGraphModel dx="3017" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2776" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,7 +71,7 @@
           <mxGeometry x="-1360" y="40" width="76" height="190" as="geometry" />
         </mxCell>
         <mxCell id="7oOkEhp5kZGitP19kNJP-21" value="MSP432P401R" style="rounded=0;whiteSpace=wrap;html=1;opacity=10;strokeWidth=8;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="-1640" y="30" width="450" height="240" as="geometry" />
+          <mxGeometry x="-1640" y="10" width="450" height="410" as="geometry" />
         </mxCell>
         <mxCell id="mtPJdMyPD3it5thuRqm9-3" value="CH32V307" style="rounded=0;whiteSpace=wrap;html=1;direction=west;opacity=20;" vertex="1" parent="1">
           <mxGeometry x="437.5" y="490" width="450" height="240" as="geometry" />
@@ -81,6 +81,49 @@
         </mxCell>
         <mxCell id="mtPJdMyPD3it5thuRqm9-6" value="" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.logic_gates.dual_inline_ic;labelNames=a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t;whiteSpace=wrap;direction=south;" vertex="1" parent="1">
           <mxGeometry x="450" y="500" width="425" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-30" value="串口RX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=190;exitPerimeter=0;" edge="1" parent="1" source="7oOkEhp5kZGitP19kNJP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1429.5294117647059" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-31" value="串口TX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=210;exitPerimeter=0;" edge="1" parent="1" source="7oOkEhp5kZGitP19kNJP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-32" value="5V" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=330;exitPerimeter=0;" edge="1" parent="1" source="7oOkEhp5kZGitP19kNJP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-33" value="5V" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=330;exitPerimeter=0;" edge="1" parent="1" source="7oOkEhp5kZGitP19kNJP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1290" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-34" value="3V3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=350;exitPerimeter=0;" edge="1" parent="1" source="7oOkEhp5kZGitP19kNJP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1270.1176470588234" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-35" value="3V3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=350;exitPerimeter=0;" edge="1" parent="1" source="7oOkEhp5kZGitP19kNJP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1270.1176470588234" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-36" value="GND" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=370;exitPerimeter=0;" edge="1" parent="1" source="7oOkEhp5kZGitP19kNJP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1250.1176470588234" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-37" value="GND" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=370;exitPerimeter=0;" edge="1" parent="1" source="7oOkEhp5kZGitP19kNJP-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1250.1176470588234" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7oOkEhp5kZGitP19kNJP-23" value="IC" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.logic_gates.dual_inline_ic;labelNames=a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t;whiteSpace=wrap;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="-1620" y="270" width="380" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
