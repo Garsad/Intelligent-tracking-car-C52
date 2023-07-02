@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T02:18:49.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" version="21.4.0" etag="iGZ9RrA-cgq09vzczhQb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T02:46:41.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="CToqS6BtFeKl97GPivWk" version="21.4.0" type="github">
   <diagram name="第 1 页" id="0d6a2WRIjfuJbXA5-QqL">
-    <mxGraphModel>
+    <mxGraphModel dx="1122" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-1" value="小车主控" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jQA3WTR6vjnxbKBaBSNO-3" target="jQA3WTR6vjnxbKBaBSNO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-3" value="串口通信线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jQA3WTR6vjnxbKBaBSNO-9" target="jQA3WTR6vjnxbKBaBSNO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-9" value="K210收发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="560" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jQA3WTR6vjnxbKBaBSNO-10" target="jQA3WTR6vjnxbKBaBSNO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-10" value="WIFI收发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jQA3WTR6vjnxbKBaBSNO-11" target="jQA3WTR6vjnxbKBaBSNO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-11" value="SKP激光测距接收数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="560" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jQA3WTR6vjnxbKBaBSNO-17" target="jQA3WTR6vjnxbKBaBSNO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-17" value="电机驱动" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="535" y="190" width="90" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.389;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jQA3WTR6vjnxbKBaBSNO-19" target="jQA3WTR6vjnxbKBaBSNO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-19" value="编码器读取" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="675" y="160" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jQA3WTR6vjnxbKBaBSNO-20" target="jQA3WTR6vjnxbKBaBSNO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-20" value="PWM电机驱动" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="675" y="260" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jQA3WTR6vjnxbKBaBSNO-26" target="jQA3WTR6vjnxbKBaBSNO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jQA3WTR6vjnxbKBaBSNO-26" value="帧头@&amp;nbsp; &amp;nbsp; 帧尾#" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="120" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
